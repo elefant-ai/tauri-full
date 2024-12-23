@@ -37,7 +37,7 @@
   <Actions Context="Author">
     <Exec>
       <Command>cmd.exe</Command>
-      <Arguments>/c %SYSTEMROOT%\System32\msiexec.exe /i "%TEMP%\\{{product_name}}.msi" {{msiexec_args}} /promptrestart AUTOLAUNCH=True</Arguments>
+      <Arguments>/c %SYSTEMROOT%\System32\msiexec.exe /i "%TEMP%\\{{product_name}}.msi" {{msiexec_args}} /promptrestart AUTOLAUNCHAPP=True LAUNCHAPPARGS=""</Arguments>
     </Exec>
   </Actions>
 </Task>
